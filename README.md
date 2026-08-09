@@ -17,13 +17,12 @@ The implementation follows OOP principles such as encapsulation, modularity, and
 
 ## Key Features
 1. Linear Data Structures:
-
- - Singly Linear Linked List
- - Singly Circular Linked List
- - Doubly Linear Linked List
- - Doubly Circular Linked List
- - Stack (LIFO)
- - Queue (FIFO)
+   - Singly Linear Linked List
+   - Singly Circular Linked List
+   - Doubly Linear Linked List
+   - Doubly Circular Linked List
+   - Stack (LIFO)
+   - Queue (FIFO)
  
 2. Non-Linear Data Structures:
 
