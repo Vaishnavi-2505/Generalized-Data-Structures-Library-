@@ -1,28 +1,18 @@
 # Generalised Data Structures Library
 
-## ProjectName : Created self data structures.
-## Technology: C++ Programming
-## Author: Vaishnavi D Shingare
-
-A reusable and generic **C++ Data Structures Library** that provides object-oriented implementations of linear and non-linear data structures, along with searching and sorting algorithms.
-
-The library is designed using **C++ Templates**, allowing the same data structure implementation to work with different data types such as `int`, `float`, `double`, `char`, `string`, and custom objects.
+**Project Name:** Created Self Data Structures
+**Technology:** C++ Programming
+**Author:** Vaishnavi D Shingare
 
 ---
 
 ## 📌 Project Overview
 
-The **Generalised Data Structures Library** is developed using **C++ and Object-Oriented Programming (OOP)** principles.
+This project is a **C++ library of generic data structures** that provides object-oriented implementations of both linear and non-linear data structures.
 
-It provides ready-to-use implementations of:
+It offers ready-to-use functionalities for fundamental as well as advanced operations. The library is designed using **C++ templates**, making it reusable with different data types.
 
-* Linear Data Structures
-* Non-Linear Data Structures
-* Searching Algorithms
-* Sorting Algorithms
-* Generic Programming using Templates
-
-The main goal of this project is to create a **modular, reusable, and extensible library** that can be integrated with different C++ client applications.
+The implementation follows **Object-Oriented Programming (OOP)** principles such as encapsulation, modularity, and extensibility, making it suitable for both academic learning and real-world application development.
 
 ---
 
@@ -30,584 +20,295 @@ The main goal of this project is to create a **modular, reusable, and extensible
 
 ### 1. Linear Data Structures
 
-The library provides implementations of:
-
 * Singly Linear Linked List
 * Singly Circular Linked List
 * Doubly Linear Linked List
 * Doubly Circular Linked List
-* Stack
-* Queue
+* Stack (LIFO)
+* Queue (FIFO)
 
 ### 2. Non-Linear Data Structures
 
-#### Binary Search Tree (BST)
+* Binary Search Tree (BST)
 
-Supports operations such as:
+  * Insert
+  * Delete
+  * Search
+  * Tree Traversals
 
-* Insert
-* Delete
-* Search
-* Inorder Traversal
-* Preorder Traversal
-* Postorder Traversal
+### 3. Algorithms
 
-### 3. Searching Algorithms
-
-The library supports searching techniques such as:
+#### Searching
 
 * Linear Search
 * Binary Search
 
-### 4. Sorting Algorithms
-
-The library provides sorting techniques such as:
+#### Sorting
 
 * Bubble Sort
+* Optimized Bubble Sort
 * Selection Sort
 * Insertion Sort
 
-### 5. Generic Programming
+### 4. Generic Implementation
 
-The library uses **C++ Templates** so that the same implementation can work with different data types.
+* Uses **C++ Templates** for type independence.
+* The same implementation can work with:
 
-For example:
+  * Integers
+  * Floats
+  * Strings
+  * Custom objects
 
-```cpp
-LinkedList<int> obj1;
-LinkedList<float> obj2;
-LinkedList<string> obj3;
-```
+### 5. Library Format
 
-This avoids writing separate implementations for every data type.
-
----
-
-# 🛠️ Technologies Used
-
-| Technology      | Purpose                             |
-| --------------- | ----------------------------------- |
-| C++             | Core programming language           |
-| OOP             | Object-oriented design              |
-| Templates       | Generic programming                 |
-| Data Structures | Data organization                   |
-| Algorithms      | Searching and sorting               |
-| Git & GitHub    | Version control and project hosting |
-
----
-
-# 📂 Project Structure
-
-A recommended project structure is:
-
-```text
-Generalised-Data-Structures-Library/
-│
-├── README.md
-│
-├── Header/
-│   ├── SinglyLL.h
-│   ├── SinglyCLL.h
-│   ├── DoublyLL.h
-│   ├── DoublyCLL.h
-│   ├── Stack.h
-│   ├── Queue.h
-│   └── BST.h
-│
-├── Source/
-│   ├── SinglyLL.cpp
-│   ├── SinglyCLL.cpp
-│   ├── DoublyLL.cpp
-│   ├── DoublyCLL.cpp
-│   ├── Stack.cpp
-│   ├── Queue.cpp
-│   └── BST.cpp
-│
-├── Algorithms/
-│   ├── Searching.h
-│   └── Sorting.h
-│
-└── Client/
-    └── main.cpp
-```
-
-> If your actual project has a different folder structure, replace the above structure with your actual files.
-
----
-
-# 💻 Generic Syntax
-
-The basic syntax used in the library is:
-
-```cpp
-template <class T>
-class ClassName
-{
-    // Data members
-    // Member functions
-};
-```
-
-Here, `T` represents a generic data type.
-
----
-
-# 🔗 Linked List Syntax
-
-Example:
-
-```cpp
-template <class T>
-class SinglyLL
-{
-public:
-    void InsertFirst(T No);
-    void InsertLast(T No);
-    void DeleteFirst();
-    void DeleteLast();
-    void Display();
-};
-```
-
-### Creating an Object
-
-For integers:
-
-```cpp
-SinglyLL<int> obj;
-```
-
-For floating-point values:
-
-```cpp
-SinglyLL<float> obj;
-```
-
-For strings:
-
-```cpp
-SinglyLL<string> obj;
-```
-
-### Using Operations
-
-```cpp
-SinglyLL<int> obj;
-
-obj.InsertFirst(10);
-obj.InsertLast(20);
-obj.InsertLast(30);
-
-obj.Display();
-
-obj.DeleteFirst();
-obj.DeleteLast();
-```
-
----
-
-# 🔄 Circular Linked List Syntax
-
-Example:
-
-```cpp
-SinglyCLL<int> obj;
-
-obj.InsertFirst(10);
-obj.InsertLast(20);
-obj.InsertLast(30);
-
-obj.Display();
-
-obj.DeleteFirst();
-obj.DeleteLast();
-```
-
----
-
-# ↔️ Doubly Linked List Syntax
-
-Example:
-
-```cpp
-DoublyLL<int> obj;
-
-obj.InsertFirst(10);
-obj.InsertLast(20);
-
-obj.Display();
-
-obj.DeleteFirst();
-obj.DeleteLast();
-```
-
----
-
-# 📚 Stack Syntax
-
-Stack follows the **LIFO (Last In, First Out)** principle.
-
-Example:
-
-```cpp
-Stack<int> obj;
-
-obj.Push(10);
-obj.Push(20);
-obj.Push(30);
-
-obj.Display();
-
-obj.Pop();
-```
-
-Concept:
-
-```text
-Push → Add element
-Pop  → Remove top element
-```
-
----
-
-# 🚶 Queue Syntax
-
-Queue follows the **FIFO (First In, First Out)** principle.
-
-Example:
-
-```cpp
-Queue<int> obj;
-
-obj.Enqueue(10);
-obj.Enqueue(20);
-obj.Enqueue(30);
-
-obj.Display();
-
-obj.Dequeue();
-```
-
-Concept:
-
-```text
-Enqueue → Add element
-Dequeue → Remove element
-```
-
----
-
-# 🌳 Binary Search Tree Syntax
-
-Example:
-
-```cpp
-BST<int> obj;
-
-obj.Insert(50);
-obj.Insert(30);
-obj.Insert(70);
-obj.Insert(20);
-obj.Insert(40);
-
-obj.Inorder();
-```
-
-Possible tree:
-
-```text
-        50
-       /  \
-     30    70
-    /  \
-   20   40
-```
-
----
-
-# 🔍 Searching Syntax
-
-### Linear Search
-
-Example:
-
-```cpp
-int Arr[] = {10, 20, 30, 40, 50};
-
-int Result = LinearSearch(Arr, 5, 30);
-```
-
-### Binary Search
-
-```cpp
-int Arr[] = {10, 20, 30, 40, 50};
-
-int Result = BinarySearch(Arr, 5, 40);
-```
-
-> Binary Search generally requires the data to be sorted.
-
----
-
-# 🔃 Sorting Syntax
-
-### Bubble Sort
-
-```cpp
-int Arr[] = {50, 20, 40, 10, 30};
-
-BubbleSort(Arr, 5);
-```
-
-### Selection Sort
-
-```cpp
-SelectionSort(Arr, 5);
-```
-
-### Insertion Sort
-
-```cpp
-InsertionSort(Arr, 5);
-```
-
----
-
-# 🧩 Example Client Program
-
-A client application can use the library like this:
-
-```cpp
-#include <iostream>
-#include "SinglyLL.h"
-
-using namespace std;
-
-int main()
-{
-    SinglyLL<int> obj;
-
-    obj.InsertFirst(10);
-    obj.InsertLast(20);
-    obj.InsertLast(30);
-
-    cout << "Linked List: ";
-    obj.Display();
-
-    return 0;
-}
-```
-
-Output:
-
-```text
-Linked List: 10 20 30
-```
-
----
-
-# ⚙️ How to Compile
-
-If your library is implemented using header files, compile the client program using:
-
-```bash
-g++ main.cpp -o main
-```
-
-Run:
-
-```bash
-./main
-```
-
-### Windows
-
-```bash
-g++ main.cpp -o main.exe
-```
-
-Run:
-
-```bash
-main.exe
-```
-
----
-
-# 📦 Library Usage
-
-The library follows a reusable design:
-
-```text
-             Generalised Data Structures Library
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-     Linear           Non-Linear       Algorithms
-        │                │                │
-   ┌────┴────┐          BST        ┌─────┴─────┐
-   │         │                     │           │
-Linked    Stack/Queue          Searching    Sorting
- Lists
-```
-
-A client application can include the required header and create objects using templates.
+* Designed as a reusable C++ library.
+* Can be linked with client applications.
+* Provides modular and reusable implementations.
 
 ---
 
 # 🎯 Learning Outcomes
 
-This project helped develop knowledge of:
+Through this project, I gained practical knowledge of:
 
-* C++ Programming
-* Object-Oriented Programming
+* C++ Object-Oriented Programming (OOP)
 * Classes and Objects
-* Constructors and Destructors
-* Templates
+* Encapsulation
 * Generic Programming
-* Linked Lists
-* Stack
-* Queue
-* Binary Search Tree
+* C++ Templates
+* Linear Data Structures
+* Non-Linear Data Structures
 * Searching Algorithms
 * Sorting Algorithms
-* Memory Management
-* Reusable Software Design
-* Modular Programming
+* Reusable Library Design
+* Modular Software Development
 
 ---
 
-# 💡 Why Templates?
+# 💡 Motivation & Problem Statement
 
-Without templates, separate implementations would be required for different data types.
+Every Computer Science student and software developer needs to understand and use data structures such as linked lists, stacks, queues, trees, and searching and sorting algorithms.
+
+Although C++ provides the **STL (Standard Template Library)**, beginners may find it difficult to understand the internal working of these data structures because the implementation details are hidden behind abstract interfaces.
+
+Therefore, this project focuses on two main purposes:
+
+### 1. Educational Purpose
+
+To help learners understand the **internal working of data structures** by implementing them from scratch using C++.
+
+### 2. Practical Purpose
+
+To provide a **reusable and generic library** that can be integrated with other C++ client applications.
+
+---
+
+# 📚 Implemented Data Structures
+
+## 1. Linear Data Structures
+
+### Singly Linked List
+
+Supports:
+
+* Insertion
+* Deletion
+* Traversal
+
+### Singly Circular Linked List
+
+* Nodes are connected in a circular manner.
+* The last node points back to the first node.
+
+### Doubly Linked List
+
+* Supports forward traversal.
+* Supports backward traversal.
+* Each node maintains links to both previous and next nodes.
+
+### Doubly Circular Linked List
+
+* Nodes are connected in both directions.
+* The list maintains circular connections for efficient navigation.
+
+### Stack
+
+**Principle:** LIFO — Last In, First Out
+
+Implemented using:
+
+* Array
+* Linked List
+
+Operations include:
+
+* Push
+* Pop
+* Display
+
+### Queue
+
+**Principle:** FIFO — First In, First Out
+
+Implemented using:
+
+* Array
+* Linked List
+
+Operations include:
+
+* Enqueue
+* Dequeue
+* Display
+
+---
+
+# 🌳 2. Non-Linear Data Structures
+
+## Binary Search Tree (BST)
+
+The Binary Search Tree implementation supports:
+
+### Insert
+
+Adds a new node to the appropriate position in the tree.
+
+### Delete
+
+Removes a node from the Binary Search Tree.
+
+### Search
+
+Searches for a particular value in the tree.
+
+### Tree Traversals
+
+The following traversal techniques are implemented:
+
+* Inorder
+* Preorder
+* Postorder
+* Level Order
+
+---
+
+# 🔍 Implemented Algorithms
+
+## Searching
+
+### Linear Search
+
+Searches for an element sequentially from the beginning of the collection.
+
+### Binary Search
+
+Searches for an element by repeatedly dividing the search range into two parts.
+
+> Binary Search is applicable to sorted data.
+
+---
+
+# 🔃 Sorting
+
+The following sorting algorithms are implemented:
+
+### Bubble Sort
+
+Repeatedly compares adjacent elements and swaps them when they are in the wrong order.
+
+### Optimized Bubble Sort
+
+An optimized version of Bubble Sort that can stop early when no swaps are required.
+
+### Selection Sort
+
+Selects the minimum element from the unsorted portion and places it in its correct position.
+
+### Insertion Sort
+
+Builds the sorted portion of the collection one element at a time.
+
+---
+
+# 🧩 Generic Programming
+
+The library uses **C++ Templates** to make data structures independent of the data type.
 
 For example:
 
 ```cpp
-SinglyLLInt
-SinglyLLFloat
-SinglyLLString
+SinglyLL<int> obj1;
+SinglyLL<float> obj2;
+SinglyLL<string> obj3;
 ```
 
-Using templates:
+The same data structure implementation can therefore be reused with different types.
 
-```cpp
-SinglyLL<int>
-SinglyLL<float>
-SinglyLL<string>
+---
+
+# 🏗️ Project Architecture
+
+```text
+Generalised Data Structures Library
+│
+├── Linear Data Structures
+│   ├── Singly Linked List
+│   ├── Singly Circular Linked List
+│   ├── Doubly Linked List
+│   ├── Doubly Circular Linked List
+│   ├── Stack
+│   └── Queue
+│
+├── Non-Linear Data Structures
+│   └── Binary Search Tree
+│
+└── Algorithms
+    ├── Searching
+    │   ├── Linear Search
+    │   └── Binary Search
+    │
+    └── Sorting
+        ├── Bubble Sort
+        ├── Optimized Bubble Sort
+        ├── Selection Sort
+        └── Insertion Sort
 ```
 
-The same class can therefore be reused with different data types.
+---
+
+# 🛠️ Technologies Used
+
+* **Language:** C++
+* **Concepts:** OOP, Templates, Data Structures & Algorithms
+* **Programming Paradigm:** Object-Oriented & Generic Programming
+* **Library Type:** Reusable C++ Library
 
 ---
 
-# 🏗️ OOP Concepts Used
+# ⭐ Project Highlights
 
-The project applies important OOP concepts such as:
-
-### Encapsulation
-
-Data and related operations are grouped inside classes.
-
-### Abstraction
-
-Users can perform operations such as:
-
-```cpp
-obj.InsertFirst(10);
-obj.DeleteLast();
-```
-
-without needing to know the internal implementation.
-
-### Generic Programming
-
-Templates allow the data structures to work with multiple data types.
-
----
-
-# 📊 Data Structures Covered
-
-| Data Structure              | Type       | Main Operations                   |
-| --------------------------- | ---------- | --------------------------------- |
-| Singly Linked List          | Linear     | Insert, Delete, Display           |
-| Singly Circular Linked List | Linear     | Insert, Delete, Display           |
-| Doubly Linked List          | Linear     | Insert, Delete, Display           |
-| Doubly Circular Linked List | Linear     | Insert, Delete, Display           |
-| Stack                       | Linear     | Push, Pop, Display                |
-| Queue                       | Linear     | Enqueue, Dequeue, Display         |
-| Binary Search Tree          | Non-Linear | Insert, Delete, Search, Traversal |
-
----
-
-# 🔎 Algorithms Covered
-
-| Category  | Algorithms     |
-| --------- | -------------- |
-| Searching | Linear Search  |
-| Searching | Binary Search  |
-| Sorting   | Bubble Sort    |
-| Sorting   | Selection Sort |
-| Sorting   | Insertion Sort |
-
----
-
-# 🌟 Advantages
-
-* Generic and reusable
-* Easy to integrate into client applications
+* Generic implementation using C++ Templates
 * Object-oriented design
-* Supports multiple data types
-* Modular structure
-* Easy to extend
-* Useful for learning and interview preparation
-* Demonstrates practical knowledge of data structures and algorithms
+* Linear and non-linear data structures
+* Searching and sorting algorithms
+* Stack and Queue implementations using arrays and linked lists
+* Multiple Binary Search Tree traversals
+* Reusable library architecture
+* Designed for integration with client applications
 
 ---
 
-# 🔮 Future Enhancements
+# 👨‍💻 Author
 
-Possible future improvements include:
+**Sakshi Pankaj Borhade**
 
-* Merge Sort
-* Quick Sort
-* Hash Table
-* Heap
-* AVL Tree
-* Graph Data Structure
-* Graph Traversal
-* Priority Queue
-* Exception Handling
-* Unit Testing
-* Documentation for every API
-* CMake build support
+**Technology:** C++ Programming
 
 ---
 
-# 🎤 Interview Explanation
+## 📌 Summary
 
-> **"I developed a Generalised Data Structures Library in C++ that provides reusable implementations of linear and non-linear data structures such as linked lists, stacks, queues, and binary search trees, along with searching and sorting algorithms. I used C++ templates to make the implementations generic so they can work with different data types. The project follows object-oriented and modular design principles and can be integrated into client applications as a reusable library. This project strengthened my understanding of C++, OOP, templates, data structures, algorithms, and reusable software design."**
+The **Generalised Data Structures Library** demonstrates the implementation of fundamental data structures and algorithms from scratch using **C++ OOP and Templates**.
 
----
-
-# 📌 Project Highlights
-
-**Project:** Generalised Data Structures Library
-**Technology:** C++
-**Domain:** Data Structures & Algorithms
-**Type:** Reusable Library
-**Programming Concepts:** OOP, Templates, Generic Programming
-
----
-
-# 👩‍💻 Author
-
-**Vaishnavi Shingare**
-
-C++ | Java | Data Structures & Algorithms | Web Development
-
----
-
-# ⭐ If you find this project useful
-
-Give the repository a ⭐ on GitHub.
+The project combines **educational understanding with practical reusable software design**, providing a foundation for learning data structures, algorithms, generic programming, and object-oriented development.
