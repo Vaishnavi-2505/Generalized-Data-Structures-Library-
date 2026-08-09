@@ -6,14 +6,15 @@
 
 ### Author: Vaishnavi D Shingare
 
-# Project Overview
+## Project Overview
+
 This project is a C++ library of generic data structures that provides object-oriented implementations of both linear and non-linear data structures.
 
 It offers ready-to-use functionalities for both fundamental and advanced operations. The library is designed using templates so that it can be reused with any data type.
 
 The implementation follows OOP principles such as encapsulation, modularity, and extensibility, making it suitable for both academic learning and real-world application development.
 
-# Key Features
+## Key Features
 1. Linear Data Structures:
 
 - Singly Linear Linked List
@@ -65,39 +66,41 @@ Thus, this project solves two main problems:
 
 1. Linear Data Structures
    
-Singly Linked List – supports insertion, deletion, traversal.
+   Singly Linked List – supports insertion, deletion, traversal.
 
-Singly Circular Linked List – nodes connected circularly.
+   Singly Circular Linked List – nodes connected circularly.
 
-Doubly Linked List – forward and backward traversal.
+   Doubly Linked List – forward and backward traversal.
 
-Doubly Circular Linked List – efficient navigation in both directions.
+   Doubly Circular Linked List – efficient navigation in both directions.
 
-Stack (LIFO) – implemented using both array and linked list.
+   Stack (LIFO) – implemented using both array and linked list.
 
-Queue (FIFO) – implemented using both array and linked list.
+   Queue (FIFO) – implemented using both array and linked list.
 
 2. Non-Linear Data Structures
 
-Binary Search Tree (BST)
+   Binary Search Tree (BST)
 
-Insert
+   Insert
 
-Delete
+   Delete
 
-Search
+   Search
 
-Traversals: Inorder, Preorder, Postorder, Level Order
+   Traversals: Inorder, Preorder, Postorder, Level Order
 
 ## 🔹 Implemented Algorithms
-Searching
 
-Linear Search
+   Searching
 
-Binary Search
+   Linear Search
 
-Sorting
-Bubble Sort
+   Binary Search
+
+   Sorting
+   
+   Bubble Sort
 
 Optimized Bubble Sort
 
