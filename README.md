@@ -1,10 +1,10 @@
 # Generalised Data Structures Library
 
-### ProjectName : Created self data structures.
+## ProjectName : Created self data structures.
 
-### Technology: C++ Programming
+## Technology: C++ Programming
 
-### Author: Vaishnavi D Shingare
+## Author: Vaishnavi D Shingare
 
 ## Project Overview
 
