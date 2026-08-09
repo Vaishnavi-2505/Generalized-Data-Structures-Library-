@@ -1,7 +1,8 @@
 # Generalised Data Structures Library
-##ProjectName : Created self data structures.
-##Technology: C++ Programming
-##Author: Vaishnavi D Shingare
+
+## ProjectName : Created self data structures.
+## Technology: C++ Programming
+## Author: Vaishnavi D Shingare
 
 A reusable and generic **C++ Data Structures Library** that provides object-oriented implementations of linear and non-linear data structures, along with searching and sorting algorithms.
 
