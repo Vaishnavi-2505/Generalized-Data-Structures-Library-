@@ -1,314 +1,96 @@
 # Generalised Data Structures Library
 
-**Project Name:** Created Self Data Structures
-**Technology:** C++ Programming
-**Author:** Vaishnavi D Shingare
+## ProjectName : Created self data structures.
 
----
+## Technology: C++ Programming
 
-## 📌 Project Overview
+## Author: Sakshi Pankaj Borhade
 
-This project is a **C++ library of generic data structures** that provides object-oriented implementations of both linear and non-linear data structures.
+# Project Overview
+This project is a C++ library of generic data structures that provides object-oriented implementations of both linear and non-linear data structures.
 
-It offers ready-to-use functionalities for fundamental as well as advanced operations. The library is designed using **C++ templates**, making it reusable with different data types.
+It offers ready-to-use functionalities for both fundamental and advanced operations. The library is designed using templates so that it can be reused with any data type.
 
-The implementation follows **Object-Oriented Programming (OOP)** principles such as encapsulation, modularity, and extensibility, making it suitable for both academic learning and real-world application development.
+The implementation follows OOP principles such as encapsulation, modularity, and extensibility, making it suitable for both academic learning and real-world application development.
 
----
+# Key Features
+## Linear Data Structures:
 
-## 🚀 Key Features
+Singly Linear Linked List
+Singly Circular Linked List
+Doubly Linear Linked List
+Doubly Circular Linked List
+Stack (LIFO)
+Queue (FIFO)
+Non-Linear Data Structures:
 
-### 1. Linear Data Structures
+Binary Search Tree (BST) with insert, delete, and traversal operations
+Algorithms:
 
-* Singly Linear Linked List
-* Singly Circular Linked List
-* Doubly Linear Linked List
-* Doubly Circular Linked List
-* Stack (LIFO)
-* Queue (FIFO)
+Searching: Linear Search, Binary Search
+Sorting: Bubble Sort, Efficient Bubble Sort, Selection Sort, Insertion Sort
+Generic Implementation:
 
-### 2. Non-Linear Data Structures
+Uses C++ templates for type independence
+Same implementation works for integers, floats, strings, and custom objects
+Library Format:
 
-* Binary Search Tree (BST)
+Designed as a reusable C++ library that can be linked with client applications
+Learning Outcomes
+Mastery of C++ Object-Oriented Programming (OOP) principles
+Strong foundation in linear and non-linear data structures
+Implementation of generic programming with templates
+Practical knowledge of searching and sorting algorithms
+Experience in designing reusable libraries for software development
+Motivation & Problem Statement
+Every computer science student and software developer repeatedly needs to implement and use data structures such as linked lists, stacks, queues, trees, and sorting/searching algorithms.
 
-  * Insert
-  * Delete
-  * Search
-  * Tree Traversals
+While C++ already provides the STL (Standard Template Library), many learners find it difficult to understand because of its abstract syntax and lack of visibility into internal implementations.
 
-### 3. Algorithms
+Thus, this project solves two main problems:
 
-#### Searching
+Educational Purpose → Helping learners understand the internal working of data structures by implementing them from scratch.
 
-* Linear Search
-* Binary Search
+Practical Purpose → Providing a reusable, generic library that can be easily linked with other projects (like STL).
 
-#### Sorting
+Implemented Data Structures
+Linear Data Structures
+Singly Linked List – supports insertion, deletion, traversal.
 
-* Bubble Sort
-* Optimized Bubble Sort
-* Selection Sort
-* Insertion Sort
+Singly Circular Linked List – nodes connected circularly.
 
-### 4. Generic Implementation
+Doubly Linked List – forward and backward traversal.
 
-* Uses **C++ Templates** for type independence.
-* The same implementation can work with:
+Doubly Circular Linked List – efficient navigation in both directions.
 
-  * Integers
-  * Floats
-  * Strings
-  * Custom objects
+Stack (LIFO) – implemented using both array and linked list.
 
-### 5. Library Format
+Queue (FIFO) – implemented using both array and linked list.
 
-* Designed as a reusable C++ library.
-* Can be linked with client applications.
-* Provides modular and reusable implementations.
+Non-Linear Data Structures
+Binary Search Tree (BST)
 
----
+Insert
 
-# 🎯 Learning Outcomes
+Delete
 
-Through this project, I gained practical knowledge of:
+Search
 
-* C++ Object-Oriented Programming (OOP)
-* Classes and Objects
-* Encapsulation
-* Generic Programming
-* C++ Templates
-* Linear Data Structures
-* Non-Linear Data Structures
-* Searching Algorithms
-* Sorting Algorithms
-* Reusable Library Design
-* Modular Software Development
+Traversals: Inorder, Preorder, Postorder, Level Order
 
----
+## 🔹 Implemented Algorithms
+Searching
 
-# 💡 Motivation & Problem Statement
+Linear Search
 
-Every Computer Science student and software developer needs to understand and use data structures such as linked lists, stacks, queues, trees, and searching and sorting algorithms.
+Binary Search
 
-Although C++ provides the **STL (Standard Template Library)**, beginners may find it difficult to understand the internal working of these data structures because the implementation details are hidden behind abstract interfaces.
+Sorting
+Bubble Sort
 
-Therefore, this project focuses on two main purposes:
+Optimized Bubble Sort
 
-### 1. Educational Purpose
+Selection Sort
 
-To help learners understand the **internal working of data structures** by implementing them from scratch using C++.
+Insertion Sort
 
-### 2. Practical Purpose
-
-To provide a **reusable and generic library** that can be integrated with other C++ client applications.
-
----
-
-# 📚 Implemented Data Structures
-
-## 1. Linear Data Structures
-
-### Singly Linked List
-
-Supports:
-
-* Insertion
-* Deletion
-* Traversal
-
-### Singly Circular Linked List
-
-* Nodes are connected in a circular manner.
-* The last node points back to the first node.
-
-### Doubly Linked List
-
-* Supports forward traversal.
-* Supports backward traversal.
-* Each node maintains links to both previous and next nodes.
-
-### Doubly Circular Linked List
-
-* Nodes are connected in both directions.
-* The list maintains circular connections for efficient navigation.
-
-### Stack
-
-**Principle:** LIFO — Last In, First Out
-
-Implemented using:
-
-* Array
-* Linked List
-
-Operations include:
-
-* Push
-* Pop
-* Display
-
-### Queue
-
-**Principle:** FIFO — First In, First Out
-
-Implemented using:
-
-* Array
-* Linked List
-
-Operations include:
-
-* Enqueue
-* Dequeue
-* Display
-
----
-
-# 🌳 2. Non-Linear Data Structures
-
-## Binary Search Tree (BST)
-
-The Binary Search Tree implementation supports:
-
-### Insert
-
-Adds a new node to the appropriate position in the tree.
-
-### Delete
-
-Removes a node from the Binary Search Tree.
-
-### Search
-
-Searches for a particular value in the tree.
-
-### Tree Traversals
-
-The following traversal techniques are implemented:
-
-* Inorder
-* Preorder
-* Postorder
-* Level Order
-
----
-
-# 🔍 Implemented Algorithms
-
-## Searching
-
-### Linear Search
-
-Searches for an element sequentially from the beginning of the collection.
-
-### Binary Search
-
-Searches for an element by repeatedly dividing the search range into two parts.
-
-> Binary Search is applicable to sorted data.
-
----
-
-# 🔃 Sorting
-
-The following sorting algorithms are implemented:
-
-### Bubble Sort
-
-Repeatedly compares adjacent elements and swaps them when they are in the wrong order.
-
-### Optimized Bubble Sort
-
-An optimized version of Bubble Sort that can stop early when no swaps are required.
-
-### Selection Sort
-
-Selects the minimum element from the unsorted portion and places it in its correct position.
-
-### Insertion Sort
-
-Builds the sorted portion of the collection one element at a time.
-
----
-
-# 🧩 Generic Programming
-
-The library uses **C++ Templates** to make data structures independent of the data type.
-
-For example:
-
-```cpp
-SinglyLL<int> obj1;
-SinglyLL<float> obj2;
-SinglyLL<string> obj3;
-```
-
-The same data structure implementation can therefore be reused with different types.
-
----
-
-# 🏗️ Project Architecture
-
-```text
-Generalised Data Structures Library
-│
-├── Linear Data Structures
-│   ├── Singly Linked List
-│   ├── Singly Circular Linked List
-│   ├── Doubly Linked List
-│   ├── Doubly Circular Linked List
-│   ├── Stack
-│   └── Queue
-│
-├── Non-Linear Data Structures
-│   └── Binary Search Tree
-│
-└── Algorithms
-    ├── Searching
-    │   ├── Linear Search
-    │   └── Binary Search
-    │
-    └── Sorting
-        ├── Bubble Sort
-        ├── Optimized Bubble Sort
-        ├── Selection Sort
-        └── Insertion Sort
-```
-
----
-
-# 🛠️ Technologies Used
-
-* **Language:** C++
-* **Concepts:** OOP, Templates, Data Structures & Algorithms
-* **Programming Paradigm:** Object-Oriented & Generic Programming
-* **Library Type:** Reusable C++ Library
-
----
-
-# ⭐ Project Highlights
-
-* Generic implementation using C++ Templates
-* Object-oriented design
-* Linear and non-linear data structures
-* Searching and sorting algorithms
-* Stack and Queue implementations using arrays and linked lists
-* Multiple Binary Search Tree traversals
-* Reusable library architecture
-* Designed for integration with client applications
-
----
-
-# 👨‍💻 Author
-
-**Sakshi Pankaj Borhade**
-
-**Technology:** C++ Programming
-
----
-
-## 📌 Summary
-
-The **Generalised Data Structures Library** demonstrates the implementation of fundamental data structures and algorithms from scratch using **C++ OOP and Templates**.
-
-The project combines **educational understanding with practical reusable software design**, providing a foundation for learning data structures, algorithms, generic programming, and object-oriented development.
