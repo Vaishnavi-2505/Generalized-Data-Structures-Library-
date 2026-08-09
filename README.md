@@ -18,30 +18,30 @@ The implementation follows OOP principles such as encapsulation, modularity, and
 ## Key Features
 1. Linear Data Structures:
 
-- Singly Linear Linked List
-- Singly Circular Linked List
-- Doubly Linear Linked List
-- Doubly Circular Linked List
-- Stack (LIFO)
-- Queue (FIFO)
+ - Singly Linear Linked List
+ - Singly Circular Linked List
+ - Doubly Linear Linked List
+ - Doubly Circular Linked List
+ - Stack (LIFO)
+ - Queue (FIFO)
  
 2. Non-Linear Data Structures:
 
-- Binary Search Tree (BST) with insert, delete, and traversal operations
+ - Binary Search Tree (BST) with insert, delete, and traversal operations
   
 3. Algorithms:
 
-- Searching: Linear Search, Binary Search
-- Sorting: Bubble Sort, Efficient Bubble Sort, Selection Sort, Insertion Sort
+ - Searching: Linear Search, Binary Search
+ - Sorting: Bubble Sort, Efficient Bubble Sort, Selection Sort, Insertion Sort
 
 4. Generic Implementation:
 
-- Uses C++ templates for type independence
-- Same implementation works for integers, floats, strings, and custom objects
+ - Uses C++ templates for type independence
+ - Same implementation works for integers, floats, strings, and custom objects
   
 5. Library Format:
 
-- Designed as a reusable C++ library that can be linked with client applications
+ - Designed as a reusable C++ library that can be linked with client applications
   
 ## Learning Outcomes
 
